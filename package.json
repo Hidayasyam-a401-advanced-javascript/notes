@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Hidayasyam-a401-advanced-javascript/notes#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.4"
   },
   "devDependencies": {
     "jest": "^26.4.2"
