@@ -19,7 +19,6 @@ describe('Notes Model', () => {
         });
     });
 
-    
 
     it('can get() a notes record', async ()=> {
          let obj = { note: 'Note 2 ', category: 'school' };
