@@ -3,6 +3,8 @@
 'use strict'
 
 const mongoose = require('mongoose');
+const notes = require('./lib/model/notes-collection.js');
+const note = new notes();
 
 require('dotenv').config();
 
@@ -20,4 +22,4 @@ const Input = require('./lib/input');
 const Notes = require('./lib/notes');
 const arg = new Input();
 //console.log('index >>>>>>> ',arg);
-const note = new Notes(arg);
+const note1 = new Notes(arg);
